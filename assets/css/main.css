@@ -2376,6 +2376,13 @@ input, select, textarea {
 			}
 
 /* Image */
+	.static{
+		position: absolute; 
+	}
+	.static:hover{
+		opacity: 0;
+	}
+
 
 	.image {
 		border-radius: 4px;

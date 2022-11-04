@@ -136,7 +136,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		/* color: #555; */
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 3em 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2420,6 +2420,8 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			height: 300px;
+			/* ^ height custom */
 		}
 
 			.image.fit img {
@@ -2439,16 +2441,35 @@ input, select, textarea {
 			border: 3px solid white;
 		}
 
-		.handshaking img{
-			border: 5px solid rgba(56, 69, 134, 0.795);
-			border-radius: 50%;
-			padding: 40px 50px;
-			background-color: white;
-			max-width: calc(100% - 8em);
-			margin-top: -42px;
+		#gizVideo{
+			display: none;
+			position: fixed;
+			width: 48rem;
+			height: 36rem; 
+			top: 50%;
+			left: 50%;
+			margin-left: -24rem;
+			margin-top: -18rem;
+			border-radius: 0.5rem;
+			background: white;
 		}
-		.handshaking{
-			margin: 0 8rem;
+		.gizContainer{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/* margin-left: 10px; */
+			width: 100%;
+		}
+		.leavePopUp{
+			cursor: pointer;
+		}
+		.exitDiv{
+			display: flex;
+			position: absolute;
+			justify-content: center;
+			align-items: flex-end;
+			height: 100%;
+			margin-bottom: 2rem;
 		}
 /* List */
 

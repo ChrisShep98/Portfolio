@@ -9,7 +9,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		<main id="fullpage">
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
@@ -74,21 +74,30 @@
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
+							<a onclick="openGizVideo()" style="cursor: pointer ;" target="_blank"><span class="image fit"><img src="images/GizmaSC.png" alt=""></span></a>
+							<h3>Gizma</h3>
+							<p>Gizma is a full-stack social media app that allows users to post their custom workouts. Users are able to view posts from other users in the Home/Feed section, and have the ability to like and comment on posts. The app is built with authentication for all users using passport.</p>
+							<ul class="actions special">
+								<li><a onclick="openGizVideo()" target="_blank" class="button">Preview</a></li>
+								<li><a href="https://github.com/ChrisShep98/Gizma" target="_blank" class="button">Source Code</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img class="static" src="images/seinfeldthumbnail.gif" alt=""><img src="images/seinfeld gif.gif" alt="" /></span>
+							<h3>Seinfeld Episode CRUD App</h3>
+							<p>A CRUD app that allows users to input information on Seinfeld episodes which include: the name of the episode, season #, episode #, and the episode description. Users have the option to either upvote, downvote or delete different epsiodes on the list.</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">Under Construction</a></li>
+								<li><a href="https://github.com/ChrisShep98/Seinfeld-CRUD-API-MongoDB" target="_blank" class="button">Source Code</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
 							<a href="https://irelza-hair-salon.netlify.app/" target="_blank"><span class="image fit"><img class="static" src="images/hairsalonthumbnail.png" alt=""><img src="images/hairsalongifwithoutscroll.gif" alt=""/></span></a>
 							<h3>Hair Salon</h3>
 							<p>A simple static HTML & CSS website for Irelza Hair Salon.</p>
 							<ul class="actions special">
 								<li><a href="https://irelza-hair-salon.netlify.app/" target="_blank" class="button">View</a></li>
 								<li><a href="https://github.com/ChrisShep98/Irelza" target="_blank" class="button">Source Code</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img class="static" src="images/seinfeldthumbnail.gif" alt=""><img src="images/seinfeld gif.gif" alt="" /></span>
-							<h3>Seinfeld Episode CRUD App</h3>
-							<p>A full-stack CRUD app that allows users to input information on Seinfeld episodes which include: the name of the episode, season #, episode #, and the episode description. Users have the option to either upvote, downvote or delete different epsiodes on the list.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">Under Construction</a></li>
-								<li><a href="https://github.com/ChrisShep98/Seinfeld-CRUD-API-MongoDB" target="_blank" class="button">Source Code</a></li>
 							</ul>
 						</div>
 					</div>
@@ -105,10 +114,6 @@
 							</header>
 							<p>Looking for a dev to join your team or looking to improve your business website?<br>Please send an email to: <strong>Shepardchristopher1@gmail.com</strong><br>I would love to discuss your business inquiry.</p>
 						</div>
-						<!-- <div class="col-6 col-12-medium imp-medium"> -->
-							<!-- <span class="handshaking"><img src="images/handshaking1.png" alt="" /></span> -->
-							<!-- <span class="image fit"><img src="images/handshaking1.png" alt="" /></span> -->
-						<!-- </div> -->
 					</div>
 				</div>
 			</section>
@@ -133,6 +138,19 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/popup.js"></script>
+		</main>
+		<!-- Gizma Popup -->
+		<div id="gizVideo">
+			<div class="gizContainer">
+				<video controls width="750">
+					<source src="images/GizmaDemo.mp4"
+							type="video/mp4">
+				</video>
+				<div class="exitDiv">
+					<span class="leavePopUp" onclick="closeForm()">Exit</span>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

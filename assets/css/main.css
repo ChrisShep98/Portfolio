@@ -2472,12 +2472,12 @@ input[type="radio"] + label:before {
 }
 
 /* Image */
-.static {
+/* .static {
   position: absolute;
 }
 .static:hover {
   opacity: 0;
-}
+} */
 
 .cracker {
   background-image: url("../../images/productivity\ image.jpg");
@@ -2501,14 +2501,14 @@ input[type="radio"] + label:before {
   height: 345px;
 }
 
-.cocktailgif {
+/* .cocktailgif {
   background-image: url("../../images/cocktail gif from ezgif.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 15px;
   height: 345px;
-}
+} */
 
 .hairsalon {
   background-image: url("../../images/hairsalonthumbnail.png");
@@ -2518,14 +2518,14 @@ input[type="radio"] + label:before {
   height: 345px;
 }
 
-.hairsalongif {
+/* .hairsalongif {
   background-image: url("../../images/hairsalongifwithoutscroll.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 15px;
   height: 345px;
-}
+} */
 
 .image {
   border-radius: 4px;
@@ -3335,7 +3335,12 @@ button:disabled,
   -webkit-transition: opacity 1s ease;
   -ms-transition: opacity 1s ease;
   transition: opacity 1s ease;
-  background-image: linear-gradient(60deg, rgb(250, 222, 148), rgb(173, 182, 231), rgb(81, 132, 181));
+  background-image: linear-gradient(
+    60deg,
+    rgb(250, 222, 148),
+    rgb(173, 182, 231),
+    rgb(81, 132, 181)
+  );
   /* background-image: linear-gradient(45deg, #4fa49a, #4361c2); */
   content: "";
   height: 100%;
@@ -3374,7 +3379,12 @@ body.is-preload #header:after {
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed, fixed, fixed;
   background-image: url("images/overlay2.png"), url("images/overlay4.svg"),
-    linear-gradient(45deg, rgb(250, 222, 148), rgb(173, 182, 231) 50%, rgb(81, 132, 181) 95%);
+    linear-gradient(
+      45deg,
+      rgb(250, 222, 148),
+      rgb(173, 182, 231) 50%,
+      rgb(81, 132, 181) 95%
+    );
   background-position: top left, center center, center center;
   background-size: auto, cover, cover;
   text-align: center;

@@ -2486,7 +2486,7 @@ input[type="radio"] + label:before {
   background-size: cover;
 }
 
-.gizma {
+.phavorites {
   background-image: url("../../images/phish-logo-black.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -2526,6 +2526,47 @@ input[type="radio"] + label:before {
   border-radius: 15px;
   height: 345px;
 } */
+
+.learningPhoto {
+  background-image: url("../../images/learning-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.forgettingCurve {
+  background-image: url("../../images/Forgetting_curve_decline.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.flatteningForgettingCurve {
+  background-image: url("../../images/flattening-forgetting-curve.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ankiExample {
+  background-image: url("../../images/anki-example.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.picOfMe2 {
+  /* padding: 50px 60px; */
+  /* border-radius: 25%; */
+  background-image: url("../../images/picOfMeSmall.png");
+  /* background-position-x: -15px;
+  background-position-y: -160px; */
+  /* background-size: 350px; */
+  border: 3px solid white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 
 .image {
   border-radius: 4px;

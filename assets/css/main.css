@@ -2527,6 +2527,34 @@ input[type="radio"] + label:before {
   height: 345px;
 } */
 
+.learningPhoto {
+  background-image: url("../../images/learning-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.forgettingCurve {
+  background-image: url("../../images/Forgetting_curve_decline.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.flatteningForgettingCurve {
+  background-image: url("../../images/flattening-forgetting-curve.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ankiExample {
+  background-image: url("../../images/anki-example.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .image {
   border-radius: 4px;
   border: 0;
